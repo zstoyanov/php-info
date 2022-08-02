@@ -1,1 +1,1 @@
-# php-info
+# php-info 1
