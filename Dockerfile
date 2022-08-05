@@ -6,7 +6,7 @@ COPY ./public /app/public
 COPY ./resources /app/resources
 COPY ./routes /app/routes
 COPY ./storage /app/storage
-COPY ./.env /app/.env
+COPY ./.env.example /app/.env
 COPY ./artisan /app/artisan
 COPY ./composer.json /app/composer.json
 COPY ./composer.lock /app/composer.lock
