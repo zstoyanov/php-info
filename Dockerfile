@@ -1,3 +1,3 @@
-FROM webdevops/php-nginx:7.3
+FROM docker.io/bitnami/laravel:9
 COPY ./src /app
-RUN composer1 install -d /app
+RUN composer install -d /app
